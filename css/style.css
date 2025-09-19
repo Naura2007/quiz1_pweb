@@ -1,0 +1,22 @@
+/* Homepage Pink Vibes */
+.home-bg {
+  background: #ffe4ec;
+  font-family: 'Poppins', sans-serif;
+}
+
+.hero {
+  background: linear-gradient(135deg,#ff9eb5,#ffb6c1,#ffe4ec);
+  padding: 6rem 0;
+}
+
+.btn-pink {
+  background-color: #ff6fa5;
+  color: white;
+  border-radius: 20px;
+  padding: 0.5rem 1.2rem;
+  transition: 0.3s;
+}
+.btn-pink:hover {
+  background-color: #ff4081;
+  color: white;
+}
