@@ -20,3 +20,81 @@
   background-color: #ff4081;
   color: white;
 }
+
+/* Hometown Pink Background */
+.hometown-bg {
+  background: linear-gradient(135deg, #ffe4ec, #ffd6e8);
+  font-family: 'Poppins', sans-serif;
+}
+
+.hometown-card {
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.95);
+}
+
+/* Food Page */
+.food-bg {
+  background: linear-gradient(135deg, #fff0f6, #ffe4ec);
+  font-family: 'Poppins', sans-serif;
+}
+
+.food-card {
+  border-radius: 20px;
+  background: #fff;
+  overflow: hidden;
+  transition: transform 0.3s;
+}
+
+.food-card:hover {
+  transform: translateY(-8px);
+}
+
+/* menyesuaikan card cafés jika perlu */
+.tourist-card img {
+  max-height: 250px;
+  object-fit: cover;
+}
+
+.tourist-card .card-body p {
+  color: #444;
+}
+
+.tourist-card {
+  border-radius: 20px;
+  background: #fff;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tourist-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 6px 20px rgba(255, 105, 180, 0.2);
+}
+
+.profile-pic {
+  border: 6px solid #ffb6c1;
+  width: 220px;       /* atur ukuran foto */
+  height: 220px;
+  object-fit: cover;  /* biar foto tetap proporsional */
+}
+
+.card-img-top {
+  height: 200px;        /* tinggi fix untuk semua gambar */
+  object-fit: cover;    /* biar gambar ter-crop rapi, nggak gepeng */
+  border-radius: 10px 10px 0 0; /* biar sudut atas membulat */
+}
+
+.profile-pic {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border: 6px solid #ffb6c1;
+}
+
+.profile-pic {
+  width: 220px;         /* atur lebar foto */
+  height: 220px;        /* tinggi foto sama */
+  object-fit: cover;    /* biar proporsional */
+  border-radius: 50%;   /* bulat */
+  border: 6px solid #ffb6c1;
+}
