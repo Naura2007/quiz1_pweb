@@ -49,7 +49,6 @@
   transform: translateY(-8px);
 }
 
-/* menyesuaikan card cafés jika perlu */
 .tourist-card img {
   max-height: 250px;
   object-fit: cover;
